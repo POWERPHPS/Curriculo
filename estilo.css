@@ -1,0 +1,44 @@
+body{
+    background-color: beige;
+    color: burlywood;
+    font-family: Verdana;
+    margin: 0;
+    text-align: center;
+}
+/*Foto*/
+.perfil{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white; /*Adicionar borda a foto*/
+}
+/*Título*/
+header h1{
+    margin-top: 40px;
+    font-size: 60px;
+}
+/*Hr*/
+hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(207, 205, 205);
+}
+/*Links*/
+nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+}
+/*Efeito mudar cor do Link*/
+a:hover {
+    color: burlywood;
+}
+/*Texto da Descrição*/
+.apresentacao{
+    width: 60%;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
