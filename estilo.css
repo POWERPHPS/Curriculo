@@ -1,17 +1,22 @@
-body{
-    background-color: beige;
-    color: burlywood;
-    font-family: Verdana;
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
-    text-align: center;
+}
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 /*Foto*/
-.perfil{
+.perfil {
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid white; /*Adicionar borda a foto*/
+    border: 3px solid #38bdf8;
+    margin-top: 20px;
 }
 /*Título*/
 header h1{
@@ -25,11 +30,16 @@ hr{
     background-color: rgb(207, 205, 205);
 }
 /*Links*/
-nav a{
-    color: black;
+nav a {
+    color: #38bdf8;
     text-decoration: none;
-    margin: 0 30px;
-    font-size: 20px;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
 }
 /*Efeito mudar cor do Link*/
 a:hover {
@@ -41,4 +51,10 @@ a:hover {
     margin: 30px auto;
     font-size: 18px;
     line-height: 1.6;
+}
+.card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
